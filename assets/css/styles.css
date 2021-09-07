@@ -845,3 +845,81 @@ body {
 }
 
 /* ----------- END media query for Form contact  --------------- */
+
+/* ---------------- Form START ----------------  */
+
+footer {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 35px;
+	background: var(--bg);
+	text-align: center;
+	justify-content: space-around;
+	width: 100%;
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer .col-1-footer,
+footer .col-2-footer,
+footer .col-3-footer,
+footer .col-4-footer {
+	padding: 15px;
+	text-align: center;
+	width: 210px;
+	font-size: 15px;
+	color: var(--black);
+	align-self: center;
+	cursor: pointer;
+}
+
+footer h3 {
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 15px;
+	color: var(--black);
+}
+
+footer i {
+	color: var(--main-color);
+}
+
+footer ul {
+	text-align: left;
+}
+
+footer li {
+	margin: 15px;
+}
+
+footer p {
+	color: var(--light-color);
+	padding: 15px;
+}
+
+footer p span {
+	color: var(--main-color);
+}
+
+/* ---------------- Form END ----------------  */
+
+@media (max-width: 850px) {
+	footer {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	footer .col-1-footer,
+	footer .col-2-footer,
+	footer .col-3-footer,
+	footer .col-4-footer {
+		align-self: center;
+	}
+
+	footer ul {
+		text-align: center;
+	}
+}
